@@ -1,0 +1,26 @@
+[
+    {
+      "timezone": "Asia/Jerusalem",
+      "countryName": "Israel",
+      "capital": "Jerusalem",
+      "continentName": "Asia"
+    },
+    {
+      "timezone": "America/New_York",
+      "countryName": "United States",
+      "capital": "Washington, D.C.",
+      "continentName": "North America"
+    },
+    {
+      "timezone": "Asia/Shanghai",
+      "countryName": "China",
+      "capital": "Beijing",
+      "continentName": "Asia"
+    },
+    {
+      "timezone": "Asia/Kolkata",
+      "countryName": "India",
+      "capital": "New Delhi",
+      "continentName": "Asia"
+    }
+  ]

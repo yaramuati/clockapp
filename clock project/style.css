@@ -1,0 +1,64 @@
+@keyframes titleAnimation {
+  0% { transform: translateY(-20px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+.title {
+  font-size: 36px;
+  text-align: center;
+  animation: titleAnimation 1s ease-out;
+  color: rgba(2, 9, 43, 0.623);
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2; 
+}
+
+.clock--wrapper {
+  text-align: center;
+  cursor: pointer;
+  color: rgb(106, 153, 188);
+  flex: 0 0 45%;
+  padding: 20px; 
+  background-color:rgb(67, 73, 86); 
+  border-radius: 10px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.clock {
+  font-size: 24px;
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+}
+
+.flag-info {
+  display: none;
+}
+
+.flag-img {
+  width: 64px;
+  height: 64px;
+}
+
+.info-btn {
+  margin-top: 30px;
+}
+
+.flag-info.active {
+  display: block; 
+}
+@media screen and (max-width: 768px) {
+  .clock--wrapper {
+    flex: 0 0 100%;
+  }
+}
